@@ -9,3 +9,8 @@ Data is from the National Oceanographic and Atmospheric Administration(NOAA). Th
 <img src="https://user-images.githubusercontent.com/63068643/115759482-49833e00-a36e-11eb-8cd8-fdbfe7ef79d4.JPG" height="200" />
 
 I took the categorical variables (Wave, Mode, Area, and Species Group) and I transformed their entries into dummy variables. Here is the code I used to transform the data:
+
+<img src="https://user-images.githubusercontent.com/63068643/115760166-08d7f480-a36f-11eb-8c98-b44c656c2801.JPG" height="100" />
+
+# Data Exploration
+I started by creating simple graphs to see if any trends jumped out. The first thing that became clear was that the majority of angler trips were people either fishing from shore or on a private boat:
