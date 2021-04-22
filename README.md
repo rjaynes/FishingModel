@@ -14,3 +14,7 @@ I took the categorical variables (Wave, Mode, Area, and Species Group) and I tra
 
 # Data Exploration
 I started by creating simple graphs to see if any trends jumped out. The first thing that became clear was that the majority of angler trips were people either fishing from shore or on a private boat:
+<img src="https://user-images.githubusercontent.com/63068643/115761983-f494f700-a370-11eb-998a-a4a3b0473f90.JPG" height="200" />
+
+Also, the vast majority of anler trips were 'inland' as opposed to on the ocean. According to the NOAA website, they categorize Inland as "Inshore bodies of saltwater or brackish water (e.g., bays, estuaries, or sounds). Does not include inland freshwater areas." Maryland borders the Chesapeake Bay, which is the largest estuary in the United States. It stands to reason that the majority of fishing takes place in the bay as opposed to off their much smaller border to the Atlantic Ocean.
+<img src="https://user-images.githubusercontent.com/63068643/115761993-f8c11480-a370-11eb-8cd9-2df750cfb929.JPG" height="200" />
