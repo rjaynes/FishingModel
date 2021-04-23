@@ -24,3 +24,26 @@ Angler trips peaked in the summer, tailing off in the spring and fall. This prob
 
 <img src="https://user-images.githubusercontent.com/63068643/115887431-ece05b80-a41f-11eb-82d3-6fd6ea15b17f.JPG" height="400" /> <img src="https://user-images.githubusercontent.com/63068643/115887438-ef42b580-a41f-11eb-917c-31bfaf9b26f0.JPG" height="300" />
 
+I created a heatmap to see if there were any other correlations that jumped out, but not much new information there:
+<img src="https://user-images.githubusercontent.com/63068643/115896501-7f392d00-a429-11eb-9304-14dbd074aa3d.JPG" height="300" />
+
+# Data Analysis
+My analysis centered around predicting the best place/way to fish. The first model I tried was a multiple linear regression. I used Year, Wave, Fishing Area, and Fishing Mode to predict Catch Per Trip. Here is what that looked like:
+<img src="https://user-images.githubusercontent.com/63068643/115903519-adbb0600-a431-11eb-8a70-37111b66409a.JPG" height="200" />
+
+The score for this model was only 0.035, which is obviously not very good. I played around with different combinations of predictor variables, but the score did not increase for any of them.
+
+From here it came to my attention that the 'CatchPerTrip' model was actually erroneous becuase there is no such thing as a fraction of the fish. I went back  into the data and changed every number that was less then one to 0:
+<img src="https://user-images.githubusercontent.com/63068643/115904373-b233ee80-a432-11eb-9ff8-8cb62676c9a1.JPG" height="200" />
+
+This resulted in the majority of the 'CatchPerTrip' column turning into zeros:
+<br>
+<img src="https://user-images.githubusercontent.com/63068643/115904503-d8f22500-a432-11eb-9e21-7dbafe42573b.JPG" height="200" />
+
+So, the next model I decided to try was a Zero Inflate Poisson model. Here is what that looked like:
+<img src="https://user-images.githubusercontent.com/63068643/115905983-ec05f480-a434-11eb-9264-f6e5c6b573f5.JPG" height="350" />
+<br>
+<img src="https://user-images.githubusercontent.com/63068643/115906026-fa541080-a434-11eb-9f92-00efb729280c.JPG" height="400" />
+
+I have circled the p values, which indicate that none of these factors were useful for predicting Catch Per Trip.
+
