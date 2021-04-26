@@ -45,5 +45,17 @@ So, the next model I decided to try was a Zero Inflate Poisson model. Here is wh
 <br>
 <img src="https://user-images.githubusercontent.com/63068643/115906026-fa541080-a434-11eb-9f92-00efb729280c.JPG" height="400" />
 
-I have circled the p values, which indicate that none of these factors were useful for predicting Catch Per Trip.
+I have circled the p values, which indicate that none of these factors were useful for predicting Catch Per Trip. At this point, the realtionships between the features and Catch Per Trip look even weaker. 
+<br>
+At this point I decided to try K-Nearest Neighbors.
+<br>
+<img src="https://user-images.githubusercontent.com/63068643/116126814-10600c00-a695-11eb-8eab-6fa00d286714.JPG" height="350" />
+
+The elbow curve indicated that either 2 or 3 neighbors would be best in this scenario.
+<br>
+<img src="https://user-images.githubusercontent.com/63068643/116126909-2f5e9e00-a695-11eb-895e-95baff93e7ad.JPG" height="200" />
+<img src="https://user-images.githubusercontent.com/63068643/116126916-32598e80-a695-11eb-9ba4-f5f3fa71b8c4.JPG" height="200" />
+
+I found k=3 to produce the highest accuracy score.
+
 
