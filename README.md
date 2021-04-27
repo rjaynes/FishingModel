@@ -20,7 +20,7 @@ Also, the vast majority of anler trips were 'inland' as opposed to on the ocean.
 <img src="https://user-images.githubusercontent.com/63068643/115761993-f8c11480-a370-11eb-8cd9-2df750cfb929.JPG" height="200" />
 
 
-Angler trips peaked in the summer, tailing off in the spring and fall. This probably correlates to the local weather and tourism trends more than fish abundance. There was no clear trend from year to year, however.
+Total fish caught peaked in the summer, tailing off in the spring and fall. This probably correlates to the local weather and tourism trends more than fish abundance. There was no clear trend from year to year, however.
 
 <img src="https://user-images.githubusercontent.com/63068643/115887431-ece05b80-a41f-11eb-82d3-6fd6ea15b17f.JPG" height="400" /> <img src="https://user-images.githubusercontent.com/63068643/115887438-ef42b580-a41f-11eb-917c-31bfaf9b26f0.JPG" height="300" />
 
