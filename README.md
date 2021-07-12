@@ -58,4 +58,7 @@ The elbow curve indicated that either 2 or 3 neighbors would be best in this sce
 
 I found k=3 to produce the highest accuracy score.
 
+Here were the resulting actual vs predicted numbers using KNN with K=3:
+![actual v predicted](https://user-images.githubusercontent.com/63068643/125296829-ad296180-e2f4-11eb-904c-e02d7fa54921.JPG)
+
 
